@@ -12,5 +12,3 @@ class Computer:
         print(self.ram,self.graphic,self.ssd)
 
 
-obj=Computer()
-obj.config()

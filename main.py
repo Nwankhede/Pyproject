@@ -1,3 +1,13 @@
-from oops_example import Robot
+from Learn2 import Robot
+from Learn1 import Computer
 
-robotObj = Robot("Roshan", 8080).say_hi()
+if __name__ == '__main__':
+    user_input =str(input())
+    if user_input=="robot":
+        robotObj=Robot("roshan",2).say_hi()
+        robotObj
+    elif user_input=="computer":
+        Computerobj=Computer().config()
+        Computerobj
+
+
