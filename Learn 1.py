@@ -1,7 +1,6 @@
 #for i in range (5):
 #    print (i,end="")
 
-
 class Computer:
     def __init__(self):
         self.ram="4gb"
